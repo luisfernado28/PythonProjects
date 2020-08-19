@@ -22,6 +22,7 @@ def pickingNumbers(a):
         if (numbers[i]-numbers[i-1])<2:
             cont+=1
         else:
+
             if maxvalue<cont:
                 maxvalue=cont
             cont=1
